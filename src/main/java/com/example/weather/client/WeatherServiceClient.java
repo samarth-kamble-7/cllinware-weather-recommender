@@ -14,13 +14,11 @@ import org.eclipse.microprofile.rest.client.inject.RegisterRestClient;
 public interface WeatherServiceClient {
 
     /**
-     * TODO: TASK 1 - Implement the REST client method to fetch current weather.
+     * TASK 1 - Implement the REST client method to fetch current weather.
      * The endpoint is "/v1/forecast" and it requires:
      * - latitude (query param)
      * - longitude (query param)
      * - current_weather (query param, should be true)
-     * 
-     * Hint: Use @GET, @Path, and @QueryParam annotations.
      */
     @GET
     @Path("/v1/forecast")
